@@ -19,8 +19,9 @@ div.homeback{
     height: 9000px;
 }
 body {
-    background-image: url("media/bg.bmp");
-    background-size: 100% ;
+    background-image: url("media/bg.png");
+    background-size: 60%;
+    background-position: 120% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
