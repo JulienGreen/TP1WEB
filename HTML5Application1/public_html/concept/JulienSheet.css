@@ -11,11 +11,12 @@ and open the template in the editor.
 
 
 div.homeback{
-    background-color: black;
-    opacity: 0.5;
+    background-color: #222222;
+    opacity: 0.75;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+    color:whitesmoke;
     height: 9000px;
 }
 body {
