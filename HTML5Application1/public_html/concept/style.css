@@ -61,12 +61,18 @@ a.boutonH:active{
     display: none;
 }
 .top2 {
-
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #888888));
+    background:-moz-linear-gradient(top, #666666 5%, #888888 100%);
+    background:-webkit-linear-gradient(top, #666666 5%, #888888 100%);
+    background:-o-linear-gradient(top, #666666 5%, #888888 100%);
+    background:-ms-linear-gradient(top, #666666 5%, #888888 100%);
+    background:linear-gradient(to bottom, #666666 5%, #888888 100%);
+    background-color:#EEEEEE;
     cursor: default;
     width: 30px;
     padding:10px 10px;
     display:inline-block;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     text-align: center;
     font-family: Avenir, Tahoma;
@@ -80,11 +86,13 @@ a.boutonH:active{
     background:-ms-linear-gradient(top, #dddddd 5%, #eeeeee 100%);
     background:linear-gradient(to bottom, #dddddd 5%, #eeeeee 100%);
     background-color:#EEEEEE;
+    overflow: hidden;
 }
 .top2:active{
     -moz-box-shadow:inset 0px 0px 10px -1px #7d7d7d;
     -webkit-box-shadow:inset 0px 0px 10px -1px #7d7d7d;
     box-shadow:inset 0px 0px 10px -1px #7d7d7d;
+    overflow: hidden;
 }
 
 /*Affichage du menu*/
