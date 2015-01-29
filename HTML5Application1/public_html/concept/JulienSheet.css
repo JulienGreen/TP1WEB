@@ -19,6 +19,10 @@ div.homeback{
     color:whitesmoke;
 /*    height: 9000px;*/
 }
+div.texte{
+    opacity: 1;
+    color:whitesmoke;
+}
 body {
     background-image: url("media/bg.png");
     background-size: 60%;
