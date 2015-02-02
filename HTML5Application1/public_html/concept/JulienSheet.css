@@ -9,34 +9,32 @@ and open the template in the editor.
 */
 
 
-div.homeback{
-    background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
-    background: rgba(25, 25, 25, .75);
+div.contenu{
+/*    background: rgb(255, 255, 255);  Fall-back for browsers that don't support rgba 
+    background: rgba(255, 255, 255, .75);*/
     margin-left: 15%;
     margin-right: 0%;
     padding: 2.5%;
     width: 80%;
+    height: 1000px;
     float: right;
-    color:whitesmoke;
+    color: black;
 /*    height: 9000px;*/
 }
-div.texte{
-    color:whitesmoke;
-}
-body {
+/*body {
     background-image: url("media/bg.png");
     background-size: 60%;
     background-position: 120% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+}*/
 img.background{
     width: 100%; 
     margin: 0px;
     float:top;
 }
 
-div.footerColor{
+div.footer{
     text-align: center;
     max-width: 100%;
     padding-bottom: 20px;
@@ -72,17 +70,20 @@ a.boutonSide:hover{
 a.boutonSide:active{
     
 }
-div.homeDivision{
-    display: block;
+div.composition{
+/*    display: block;*/
 }
 
 div.menuSide{
+    background-color: #555555;
     position: fixed;
+    width: 15%;
+    height: 100%;
 }
 
 ul.menuSide{
     list-style-type: none;
-    width: 15%;
+    width: 100%;
     margin: 0px;
     padding: 0%;
 }
