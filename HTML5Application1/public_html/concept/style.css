@@ -12,17 +12,17 @@ body{
     margin : 0px;
     margin-top: 0%;
     margin-bottom: 0%;
+/*    
          background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
   background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
   background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
   background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
-  background-image: linear-gradient(to bottom, #ffffff, #eeeeee);
+  background-image: linear-gradient(to bottom, #ffffff, #eeeeee);*/
 }
 
 /*Bouton du menu*/
 
 a.boutonH {
-
     cursor: default;
     width: 100px;
     padding:10px 10px;
