@@ -48,14 +48,14 @@ div.footer{
 
 a.boutonSide{
   display: block;
-  background: #2e2e2e;
+  background: #777777;
   border-bottom: 1px;
-  border-bottom-color: #ffffff;
+  border-bottom-color: #aaaaaa;
   border-bottom-style: solid;
-  font-family: Arial;
+  font-family: Avenir;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 20px 5px 20px;
   width: auto;
   text-decoration: none;
 }
@@ -95,4 +95,16 @@ li.menuSide{
 }
 div.resetFloat{
     clear:both;
+}
+h1{
+  border-bottom: 1px;
+  border-bottom-color: #aaaaaa;
+  border-bottom-style: solid;
+  margin-bottom: 0px;
+  font-family: Avenir;
+  font-weight: normal;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
