@@ -8,7 +8,6 @@ and open the template in the editor.
     Author     : Necro
 */
 
-
 div.contenu{
 /*    background: rgb(255, 255, 255);  Fall-back for browsers that don't support rgba 
     background: rgba(255, 255, 255, .75);*/
@@ -52,21 +51,17 @@ a.boutonSide{
   border-bottom: 1px;
   border-bottom-color: #aaaaaa;
   border-bottom-style: solid;
-  font-family: Avenir;
+  font-family: 'Open Sans';
+  font-weight: normal;
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1.3em;
   padding: 5px 20px 5px 20px;
   width: auto;
   text-decoration: none;
 }
 
 a.boutonSide:hover{
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #000000, #000000);
-  background-image: -moz-linear-gradient(top, #000000, #000000);
-  background-image: -ms-linear-gradient(top, #000000, #000000);
-  background-image: -o-linear-gradient(top, #000000, #000000);
-  background-image: linear-gradient(to bottom, #000000, #000000);
+  background: #333333;
   text-decoration: none;
 }
 
@@ -107,5 +102,5 @@ h1{
   color: #ffffff;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 1em;
+  font-size: 1.3em;
 }
