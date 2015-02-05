@@ -54,7 +54,7 @@ a.boutonSide{
   border-bottom-style: solid;
   font-family: Avenir;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25em;
   padding: 5px 20px 5px 20px;
   width: auto;
   text-decoration: none;
@@ -106,5 +106,5 @@ h1{
   color: #ffffff;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
