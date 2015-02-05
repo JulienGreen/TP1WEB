@@ -54,7 +54,7 @@ a.boutonSide{
   border-bottom-style: solid;
   font-family: Avenir;
   color: #ffffff;
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 5px 20px 5px 20px;
   width: auto;
   text-decoration: none;
@@ -92,6 +92,7 @@ ul.menuSide{
 }
 li.menuSide{
     margin-left:0px;
+    width: 100%;
 }
 div.resetFloat{
     clear:both;
@@ -106,5 +107,5 @@ h1{
   color: #ffffff;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 16px;
+  font-size: 1em;
 }
