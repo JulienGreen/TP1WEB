@@ -51,11 +51,10 @@ a.boutonSide{
   border-bottom: 1px;
   border-bottom-color: #aaaaaa;
   border-bottom-style: solid;
-  font-family: 'Open Sans';
   font-weight: normal;
   color: #ffffff;
-  font-size: 1.3em;
-  padding: 5px 20px 5px 20px;
+  font-size: 16px;
+  padding: 7px 20px 7px 20px;
   width: auto;
   text-decoration: none;
 }
@@ -97,10 +96,9 @@ h1{
   border-bottom-color: #aaaaaa;
   border-bottom-style: solid;
   margin-bottom: 0px;
-  font-family: Avenir;
   font-weight: normal;
   color: #ffffff;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-size: 1.3em;
+  font-size: 20px;
 }
