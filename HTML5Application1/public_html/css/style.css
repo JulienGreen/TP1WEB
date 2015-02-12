@@ -22,6 +22,7 @@ body{
 }
 
 div.disclaimer{
+    display: none;
     background-color: red;
     color: whitesmoke;
 }
@@ -94,4 +95,12 @@ input[type="text"] {
     border-style: solid;
     border-width: 1px;
     border-color: #bd0000;
+}
+input[type="text"]:hover {
+    background-color: #e3e3e3;
+    border-color: #006dbd;
+}
+input[type="text"]:focus {
+    background-color: #e3e3e3;
+    border-color: #bd00bb;
 }

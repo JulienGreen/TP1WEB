@@ -45,6 +45,26 @@ a.boutonSide:hover{
 a.boutonSide:active{
     
 }
+
+a.boutonSub{
+  display: block;
+  background: #4f4f4f;
+  border-bottom: 1px;
+  border-bottom-color: #aaaaaa;
+  border-bottom-style: solid;
+  font-weight: normal;
+  color: #d8d8d8;
+  font-size: 16px;
+  padding: 7px 20px 7px 35px;
+  width: auto;
+  text-decoration: none;
+}
+
+a.boutonSub:hover{
+  background: #333333;
+  text-decoration: none;
+}
+
 div.composition{
 /*    display: block;*/
 }
