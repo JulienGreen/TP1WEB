@@ -21,6 +21,17 @@ body{
   background-image: linear-gradient(to bottom, #ffffff, #eeeeee);*/
 }
 
+div.disclaimer{
+    background-color: red;
+    color: whitesmoke;
+}
+
+div.disclaimer p{
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
 div.menu {
     width: 100%;
 }
@@ -45,25 +56,42 @@ header h2 {
     color: whitesmoke;
 }
 
-article{
+section{
     margin-top: 30px;
-    background-color: whitesmoke;
-    border-bottom-color: #555555;
+    background-color: #f9f7ed;
+    border-bottom-color: #2c2d2f;
     border-bottom-style: solid;
     border-bottom-width: 3px;
 }
 
-article h3{
+section h3{
     font-size: 20px;
     display: box;
     margin: 0px;
     padding: 10px 20px;
-    background-color: #555555;
-    color: whitesmoke;
+    background-color: #2c2d2f;
+    color: #f9f7ed;
 }
 
-article p{
+section p{
     line-height: 1,5;
     margin: 0px 20px;
     padding: 10px 0px;
+}
+
+form {
+    line-height: 2;
+    font-size: 14px;
+    margin: 5px 20px;
+    padding: 5px 0px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bd0000;
 }
