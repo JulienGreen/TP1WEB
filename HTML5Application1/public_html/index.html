@@ -48,18 +48,18 @@ and open the template in the editor.
                         <p>Ne vous inquiètez pas, répondez à ses questions et nous vous informerons si vous avez bien fait le tout !</p>
                         <p><span class="bold">&nbsp;&nbsp;&nbsp;&nbsp;Formulaire</span><br>* Champs requis</p>
                         <form action="contact_the_cops.php" method="post">
-                            <table>
+                            <table class="right">
                                 <tr>
                                     <td><label for="nom">Nom* : </label></td>
-                                    <td><input type="text" name="nom" id="nom" required=""></td>
+                                    <td><input type="text" name="nom" id="nom" required></td>
                                 </tr>
                                 <tr>
                                     <td><label for="adresse">Adresse* : </label></td>
-                                    <td><input type="text" name="adresse" id="adresse" required=""></td>
+                                    <td><input type="text" name="adresse" id="adresse" required></td>
                                 </tr>
                                 <tr>
                                     <td><label for="victime">Victime* : </label></td>
-                                    <td><input type="text" name="victime" id="victime" required=""></td>
+                                    <td><input type="text" name="victime" id="victime" required></td>
                                 </tr>
                                 <tr>
                                     <td colspan="2"><p>Informations pour vous contacter</p></td>
@@ -103,7 +103,7 @@ and open the template in the editor.
                                 </tr>
                             </table>
                             <input type="checkbox" name="clean" id="clean" value="ON" /><label for="clean">Scène de crime netoyée ?</label><br>
-                            <input type="checkbox" name="cops" value="ON" checked="checked" disabled="disabled" /><label for="cops">Ne pas envoyer ces informations à la police</label><br>
+                            <input type="checkbox" name="cops" value="ON" required/><label for="cops">Ne pas envoyer ces informations à la police *</label><br>
                             <input type="reset" value="Reset" name="reset" />
                             <input type="submit" value="Envoyer" name="send" />
                         </form>

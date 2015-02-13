@@ -92,15 +92,24 @@ form {
 }
 
 input[type="text"] {
+    width: 175px;
     border-style: solid;
     border-width: 1px;
     border-color: #bd0000;
 }
 input[type="text"]:hover {
     background-color: #e3e3e3;
-    border-color: #006dbd;
+    border-color: #bd00bb;
 }
 input[type="text"]:focus {
     background-color: #e3e3e3;
-    border-color: #bd00bb;
+    border-color: #006dbd;
+}
+
+select {
+    width: 177px;
+}
+
+table.right td{
+    text-align: right;
 }
