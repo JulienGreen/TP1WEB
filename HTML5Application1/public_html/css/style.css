@@ -113,3 +113,16 @@ select {
 table.right td{
     text-align: right;
 }
+
+table td img{
+    height: 75px;
+}
+
+a {
+    color:#006dbd;
+    text-decoration: none;
+}
+
+a.cops:hover {
+    color:#bd00bb;
+}
