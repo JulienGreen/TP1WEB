@@ -13,12 +13,12 @@ body{
     margin-top: 0%;
     margin-bottom: 0%;
     font-family: sans-serif;
-/*    
-         background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
-  background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
-  background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
-  background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
-  background-image: linear-gradient(to bottom, #ffffff, #eeeeee);*/
+    /*    
+             background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+      background-image: -moz-linear-gradient(top, #ffffff, #eeeeee);
+      background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
+      background-image: -o-linear-gradient(top, #ffffff, #eeeeee);
+      background-image: linear-gradient(to bottom, #ffffff, #eeeeee);*/
 }
 
 div.disclaimer{
@@ -151,49 +151,49 @@ div.contenu{
 }
 
 a.boutonSide{
-  display: block;
-  background: #777777;
-  border-bottom: 1px;
-  border-bottom-color: #aaaaaa;
-  border-bottom-style: solid;
-  font-weight: normal;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 7px 20px 7px 10px;
-  width: auto;
-  text-decoration: none;
+    display: block;
+    background: #777777;
+    border-bottom: 1px;
+    border-bottom-color: #aaaaaa;
+    border-bottom-style: solid;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 7px 20px 7px 10px;
+    width: auto;
+    text-decoration: none;
 }
 
 a.boutonSide:hover{
-  background: #333333;
-  text-decoration: none;
+    background: #333333;
+    text-decoration: none;
 }
 
 a.boutonSide:active{
-    
+
 }
 
 a.boutonSub{
-  display: block;
-  background: #4f4f4f;
-  border-bottom: 1px;
-  border-bottom-color: #aaaaaa;
-  border-bottom-style: solid;
-  font-weight: normal;
-  color: #d8d8d8;
-  font-size: 16px;
-  padding: 7px 20px 7px 35px;
-  width: auto;
-  text-decoration: none;
+    display: block;
+    background: #4f4f4f;
+    border-bottom: 1px;
+    border-bottom-color: #aaaaaa;
+    border-bottom-style: solid;
+    font-weight: normal;
+    color: #d8d8d8;
+    font-size: 16px;
+    padding: 7px 20px 7px 35px;
+    width: auto;
+    text-decoration: none;
 }
 
 a.boutonSub:hover{
-  background: #333333;
-  text-decoration: none;
+    background: #333333;
+    text-decoration: none;
 }
 
 div.composition{
-/*    display: block;*/
+    /*    display: block;*/
 }
 
 div.menuSide{
@@ -217,13 +217,13 @@ div.resetFloat{
     clear:both;
 }
 h1{
-  border-bottom: 1px;
-  border-bottom-color: #aaaaaa;
-  border-bottom-style: solid;
-  margin-bottom: 0px;
-  font-weight: normal;
-  color: #ffffff;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
+    border-bottom: 1px;
+    border-bottom-color: #aaaaaa;
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+    font-weight: normal;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
