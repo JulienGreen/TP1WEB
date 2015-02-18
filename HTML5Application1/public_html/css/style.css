@@ -150,7 +150,7 @@ div.contenu{
     color: black;
 }
 
-a.boutonSide{
+a.boutonside{
     display: block;
     background: #777777;
     border-bottom: 1px;
@@ -164,16 +164,16 @@ a.boutonSide{
     text-decoration: none;
 }
 
-a.boutonSide:hover{
+a.boutonside:hover{
     background: #333333;
     text-decoration: none;
 }
 
-a.boutonSide:active{
+a.boutonside:active{
 
 }
 
-a.boutonSub{
+a.boutonsub{
     display: block;
     background: #4f4f4f;
     border-bottom: 1px;
@@ -187,7 +187,7 @@ a.boutonSub{
     text-decoration: none;
 }
 
-a.boutonSub:hover{
+a.boutonsub:hover{
     background: #333333;
     text-decoration: none;
 }
@@ -196,24 +196,24 @@ div.composition{
     /*    display: block;*/
 }
 
-div.menuSide{
+div.menuside{
     background-color: #555555;
     position: fixed;
     width: 15%;
     height: 100%;
 }
 
-ul.menuSide{
+ul.menuside{
     list-style-type: none;
     width: 100%;
     margin: 0px;
     padding: 0%;
 }
-li.menuSide{
+li.menuside{
     margin-left:0px;
     width: 100%;
 }
-div.resetFloat{
+div.resetfloat{
     clear:both;
 }
 h1{
