@@ -113,13 +113,18 @@ table td img{
     height: 75px;
 }
 
-table.armes {
+table.repas {
     margin: 0px 20px;
+    margin: auto;
 }
 
-table.armes th {
-    text-align: left;
+table.repas th {
+    text-align: center;
 }
+table.repas td {
+    text-align: center;
+}
+
 
 a {
     color:#006dbd;
